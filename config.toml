@@ -1,0 +1,10 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'GG'
+
+theme = 'gg'
+publishDir = 'docs'
+# needed?
+sectionPagesMenu = 'main'
+
+

@@ -1,0 +1,14 @@
+<div>
+    <nav>
+      <ul>
+        <li><a href="{{ .Site.BaseURL }}"> <strong style="font-size: 125%"> {{ .Site.Title }} </strong></a></li>
+      </ul>
+      <ul>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a></li> 
+        {{ end }}
+      </ul>
+    </nav>
+</div>
+  

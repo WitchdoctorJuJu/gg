@@ -1,0 +1,20 @@
+{{ define "main" }}
+    {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+    {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+    
+    <article>
+        <header>
+            <div>
+                <div></div>{{ .Title }}</div>
+                <div>{{ .PublishDate.Format $dateFormat }}</div>
+            </div>
+        </header>
+        <body>
+        {{ .Content }}
+        </body>
+        <!-- <footer>
+            Footer
+        </footer> -->
+    </article>
+
+{{ end }}
