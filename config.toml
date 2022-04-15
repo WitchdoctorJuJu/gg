@@ -3,8 +3,8 @@ languageCode = 'en-us'
 title = 'GG'
 
 theme = 'gg'
+homepage = 'https://witchdoctorjuju.github.io/gg/'
 publishDir = 'docs'
-# needed?
 sectionPagesMenu = 'main'
 
 
