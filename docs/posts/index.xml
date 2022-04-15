@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on GG</title>
-    <link>http://example.org/posts/</link>
+    <link>https://witchdoctorjuju.github.io/gg/posts/</link>
     <description>Recent content in Posts on GG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Apr 2022 08:23:18 -0400</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Apr 2022 08:23:18 -0400</lastBuildDate><atom:link href="https://witchdoctorjuju.github.io/gg/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First</title>
-      <link>http://example.org/posts/first/</link>
+      <link>https://witchdoctorjuju.github.io/gg/posts/first/</link>
       <pubDate>Fri, 15 Apr 2022 08:23:18 -0400</pubDate>
       
-      <guid>http://example.org/posts/first/</guid>
+      <guid>https://witchdoctorjuju.github.io/gg/posts/first/</guid>
       <description>GG A test site for Github Pages</description>
     </item>
     
